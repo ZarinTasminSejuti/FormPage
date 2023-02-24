@@ -1,13 +1,14 @@
 import React from "react";
 import Input from "./Input";
 
-function Login() {
+function Register() {
     return (
       <div className="container">
           <form className='form'>
             <Input type = "text" placeholder = "Your Username..." />
             <Input type = "password" placeholder = "Your Password..." />
-            <button type = "submit">Login</button>
+            <Input type = "password" placeholder = "Confirm Password..." />
+            <button type = "submit">Register</button>
   
   
           </form>
@@ -15,4 +16,4 @@ function Login() {
     );
   }
 
-  export default Login;
+  export default Register;
