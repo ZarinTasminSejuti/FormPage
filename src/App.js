@@ -1,8 +1,9 @@
 import React from 'react';
 import Login from './Login';
 import Register from './Register';
+import Spread from './Spread';
 
-var userIsregister = false;
+var userIsregister = true;
 
  
 
@@ -20,3 +21,4 @@ function App() {
 }
 
 export default App;
+ 
